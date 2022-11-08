@@ -18,7 +18,7 @@ function userForm(e) {
   const result = `
     <span class='bolded'> Full Name: </span> ${firstName.value} ${lastName.value}<br/>
     <span class='bolded'> Email: </span> ${email.value}<br/>
-    <span class='bolded'> Address: </span> ${address.value} ${city.value}, <br/>${province.value}<br/>
+    <span class='bolded'> Address: </span> ${address.value} ${city.value}, ${province.value}<br/>
     <span class='bolded'> Membership: </span> ${whichMembership}<br/>
     `;
 
